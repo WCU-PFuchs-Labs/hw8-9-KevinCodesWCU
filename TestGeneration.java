@@ -22,7 +22,7 @@ public class TestGeneration {
 
         ArrayList<GPTree> top = gen.getTopTen();
         DecimalFormat df = new DecimalFormat("0.00");
-        System.out.println("Top Ten Fitness Values:");
+        System.out.print("Top Ten Fitness Values:");
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < top.size(); i++) {
             if (i > 0) sb.append(", ");
@@ -31,3 +31,4 @@ public class TestGeneration {
         System.out.println(sb.toString());
     }
 }
+
